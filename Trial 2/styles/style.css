@@ -15,6 +15,7 @@ header {
     position: sticky;
     margin-top: -8px;
     top: 0;
+    z-index: 1;
 }
 
 nav {
@@ -60,4 +61,62 @@ nav {
     background-color: #5c7e85;
     color: white;
     border-color: black;
+}
+
+
+
+.headingtitle{
+    width: 550px;
+    float: left;
+    position: relative;
+}
+
+.headingimage {
+    width: 550px;
+    float: left;
+    border: 1px solid;
+   
+}
+
+.banner {
+    position: absolute;
+    background-color: rgba(135, 207, 220, 0.4);
+    width: 550px;
+    margin-top: 214px;
+    color: white;
+    font-family: KulimPark;
+    line-height: 0.7;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+.banner p {
+    font-size: 30px;
+}
+
+.headingadjacent {
+    background-color: #87CFDC;
+    font-family: KulimPark;
+    text-align: right;
+    border: 2px solid;
+    height: 540px;
+    padding: 10px 15px 0px 0px;
+    
+}
+
+.headingadjacent h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: lighter;
+}
+
+.headingadjacent p {
+    font-size: 25px;
+} 
+
+.headingadjacent a {
+    color: white;
+    font-size: 25px;
 }
