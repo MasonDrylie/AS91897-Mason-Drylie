@@ -77,29 +77,31 @@ nav ul {
 
 .heading {
     margin-top: -25px;
+    background-color: #87CFDC;
+    font-family: KulimPark;
+    text-align: left;
+    border: 2px solid;
+    height: 450px;
+    padding: 20px 0px 0px 20px;
+    line-height: 25px;
 }
 
-.headingtitle{
-    width: 600px;
-    float: left;
-    position: relative;
-}
 
 .headingimage {
-    width: 584px;
-    float: left;
+    width: 450px;
+    float: right;
     border: 1px solid;
    
 }
 
 .banner {
-    position: absolute;
     background-color: rgba(135, 207, 220);
     width: 584px;
-    margin-top: 214px;
+    z-index: 1;
     color: white;
     font-family: KulimPark;
     line-height: 0.7;
+    
 }
 
 .banner h1 {
@@ -109,26 +111,17 @@ nav ul {
     font-size: 30px;
 }
 
-.headingadjacent {
-    background-color: #87CFDC;
-    font-family: KulimPark;
-    text-align: right;
-    border: 2px solid;
-    height: 574px;
-    padding: 10px 15px 0px 0px;
-    
-}
 
-.headingadjacent h1 {
-    font-size: 40px;
+.heading h1 {
+    font-size: 30px;
     text-decoration: underline;
 }
 
-.headingadjacent p {
+.heading p {
     font-size: 25px;
-} 
+}
 
-.headingadjacent a {
+.heading a {
     color: white;
     font-size: 25px;
 }
