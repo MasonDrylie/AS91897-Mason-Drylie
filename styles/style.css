@@ -12,6 +12,13 @@
     src: url(fonts/kulimpark.ttf);
   }
 
+.thumb {
+    width: 333.33px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+
 header {
     display: flex;
     flex-direction: row;
@@ -128,4 +135,14 @@ nav ul {
 .headingadjacent a {
     color: white;
     font-size: 25px;
+}
+
+.gallery {
+    background-color: #145D6B;
+    color: white;
+    height: 50px;
+}
+
+.gallery h1 {
+    margin
 }
