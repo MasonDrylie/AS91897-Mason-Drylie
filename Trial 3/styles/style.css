@@ -12,11 +12,11 @@
   }
 
 .thumb {
-    width: 33%;
+    width: 332.2px;
     float: left;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    height: 240px;
+    border-width: 3px 0px 3px 0px;
+    border-style: solid;
+    color: black;
 }
 
 header {
@@ -132,4 +132,20 @@ nav ul {
 .heading a {
     color: white;
     font-size: 25px;
+}
+
+.gallery {
+    background-color: #87CFDC;
+    color: black;
+    height: 304px;
+    padding-top: 1px;
+    text-align: left;
+    font-family: KulimPark;
+    border: 2px solid;
+    text-decoration: underline;
+}
+
+.gallery h1 {
+    margin-left: 20px;
+
 }

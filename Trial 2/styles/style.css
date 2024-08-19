@@ -11,6 +11,12 @@
     src: url(fonts/kulimpark.ttf);
   }
 
+.thumb {
+    width: 333.33px;
+    float: left;
+    padding-bottom: 5px;
+}
+
 header {
     position: sticky;
     margin-top: -8px;
@@ -119,4 +125,17 @@ nav {
 .headingadjacent a {
     color: white;
     font-size: 25px;
+}
+
+.gallery {
+    background-color: #145D6B;
+    color: white;
+    height: 300px;
+    padding-top: 1px;
+    text-align: left;
+    font-family: KulimPark;
+}
+
+.gallery h1 {
+    margin-left: 20px;
 }

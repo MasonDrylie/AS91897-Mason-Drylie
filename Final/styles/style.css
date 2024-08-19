@@ -1,0 +1,149 @@
+#pagecontainer {
+    width: 1000px;
+    height: 2000px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+@font-face {
+    font-family: KulimPark;
+    src: url(fonts/kulimpark.ttf);
+  }
+
+.thumb {
+    width: 333.33px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    justify-content: space-between;
+    background-color: #87CFDC;
+    font-family: KulimPark;
+    position: sticky;
+    margin-top: -8px;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    gap: 0px;
+}
+
+nav ul {
+    text-align: left;
+}
+
+#logo {
+    height: 140px;
+    display: inline-block;
+}
+
+.navbox {
+    height: 120px;
+    width: 175px;
+    border-style: solid;
+    padding: 0px 10px 20px 20px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+#indexnav {
+    border-width: 0px 1px 0px 2px;
+}
+
+#info1nav {
+    border-width: 0px 1px 0px 1px;
+}
+
+#info2nav {
+    border-width: 0px 1px 0px 1px;
+}
+
+.current {
+    background-color: #509FAD;
+    color: white;
+    border-color: black;
+}
+
+.navbox:hover {
+    background-color: #c2f1fa;
+    color: black;
+}
+
+.headingtitle{
+    width: 550px;
+    float: left;
+    position: relative;
+}
+
+.headingimage {
+    width: 550px;
+    float: left;
+    border: 1px solid;
+   
+}
+
+.banner {
+    position: absolute;
+    background-color: rgba(135, 207, 220, 0.4);
+    width: 550px;
+    margin-top: 214px;
+    color: white;
+    font-family: KulimPark;
+    line-height: 0.7;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+.banner p {
+    font-size: 30px;
+}
+
+.headingadjacent {
+    background-color: #87CFDC;
+    font-family: KulimPark;
+    text-align: right;
+    border: 2px solid;
+    height: 540px;
+    padding: 10px 15px 0px 0px;
+    
+}
+
+.headingadjacent h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: lighter;
+}
+
+.headingadjacent p {
+    font-size: 25px;
+} 
+
+.headingadjacent a {
+    color: white;
+    font-size: 25px;
+}
+
+.gallery {
+    background-color: #145D6B;
+    color: white;
+    height: 300px;
+    padding-top: 1px;
+    text-align: left;
+    font-family: KulimPark;
+}
+
+.gallery h1 {
+    margin-left: 20px;
+}
