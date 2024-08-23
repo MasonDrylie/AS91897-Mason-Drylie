@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <title>Home | Pupuke Kahui Ako</title>
 </head>
 <body>
     <div id="pagecontainer">
         <header>
-            <img id="logo" src="resources/logo.png">
+            <img id="logo" src="resources/logo.png" alt="Pupuke Kahui Ako logo">
             <nav>
-
                 <a class="navbox current" id="indexnav" href="index.html">
                     <h2>Home</h2>
                     <ul>
@@ -41,38 +40,27 @@
         </header>
         <main>
             <div class="heading">
-                <div class="headingtitle titleleft">
-                    <img class="headingimage" src="resources/homeheading.jpg">
-                    <div class="banner">
-                        <h1>Pupuke Kahui Ako</h1>
-                        <p>Westlake Boys High School in its Locality</p>
-                    </div>
-                </div>
-                <div class="headingadjacent adjacentright">
+                <div class="headingadjacent adjacentleft">
                     <h1>Our Vision</h1>
                     <p>To create a rich, collaborative culture that unites <strong>kura</strong> (schools), <strong>pouako</strong> (teachers), <strong>ākonga</strong> (students) and <strong>whānau</strong> to work collectively on common goals for the benefit of all.</p>
                     <p><strong>‘Ehara taku toa i te toa takitahi, engari he toa takitini’</strong> – success is not the work of an individual, but the work of many.</p>
                     <br>
                     <a href="https://www.tekaahuiakoopupuke.co.nz/" target="_blank">Visit our main site</a>
                 </div>
+                <div class="headingtitle titleright">
+                    <img class="headingimage" src="resources/homeheading.jpg" alt="A photo of a wharf on Lake Pupuke">
+                    <div class="banner">
+                        <h1>Pupuke Kahui Ako</h1>
+                        <p>Westlake Boys High School in its Locality</p>
+                    </div>
+                </div>
+                
             </div>
-            <div id="waiata">
-                <h1>Rangitoto</h3>
-                <h2>nā Johnny Waititi</p>
-                <br>
-                <h2>Rangitoto te maunga</h2>
-                <h3>Rangitoto is the mountain</h3>
-                <h2>Waitematā te moana</h2>
-                <h3>Waitemata is the ocean</h3>
-                <h2>Ngāti Paoa te iwi e </h2>
-                <h3>Ngati Paoa are the iwi</h3>
-                <h2>Ko Pupuke te roto</h2>
-                <h3>Pupuke is the lake</h3>
-                <h2>Anei ngā kura o Te Kāhui Ako</h2>
-                <h3>Here are the schools of our Community of learning</h3>
-                <h2>E ngā iwi, tēnā koutou (2x)</h2>
-                <h3>Everyone, welcome. Everyone, welcome.</h3>
-                <img id="rangitoto" src="resources/Rangitoto Island/Rangitoto_Island_banner.jpg">
+            <div class="gallery">
+                <h1>Gallery: Lake Pupuke</h1>
+                <a data-fancybox="gallery" href="resources/LakePupuke/arialpupuke.jpeg"><img src="resources/LakePupuke/arialpupuke.jpeg" class="thumb" alt="An arial view of Lake Pupuke"></a>
+                <a data-fancybox="gallery" href="resources/LakePupuke/lakeside.jpg"><img src="resources/LakePupuke/lakeside.jpg" class="thumb" alt="A view of a wharf on Lake Pupuke, with trees in the foreground"></a>
+                <a data-fancybox="gallery" href="resources/LakePupuke/sunrise.jpg"><img src="resources/LakePupuke/sunrise.jpg" class="thumb" alt="A view of a Lake Pupuke jetty at sunrise"></a>
             </div>
         </main>
     </div>

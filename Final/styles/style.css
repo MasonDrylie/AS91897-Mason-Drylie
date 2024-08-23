@@ -79,11 +79,19 @@ nav ul {
     color: black;
 }
 
-.headingtitle{
+.titleright {
+    width: 550px;
+    float: right;
+    position: relative;
+}
+
+.titleleft {
     width: 550px;
     float: left;
     position: relative;
 }
+
+
 
 .headingimage {
     width: 550px;
@@ -109,15 +117,29 @@ nav ul {
     font-size: 30px;
 }
 
-.headingadjacent {
+.adjacentright {
     background-color: #87CFDC;
     font-family: KulimPark;
     text-align: right;
     border: 2px solid;
-    height: 540px;
-    padding: 10px 15px 0px 0px;
-    
+    height: 548px;
+    width: 445px;
+    float: right;
 }
+
+.adjacentleft {
+    background-color: #87CFDC;
+    font-family: KulimPark;
+    text-align: left;
+    border: 2px solid;
+    height: 548px;
+    width: 446px;
+    float: left;
+}
+
+
+
+
 
 .headingadjacent h1 {
     font-size: 40px;
