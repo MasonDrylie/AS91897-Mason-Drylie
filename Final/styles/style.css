@@ -69,7 +69,7 @@ nav ul {
 }
 
 .current {
-    background-color: #509FAD;
+    background-color: #3D7F8A;
     color: white;
     border-color: black;
 }
@@ -131,7 +131,7 @@ nav ul {
 } 
 
 .headingadjacent a {
-    color: white;
+    color: #696969;
     font-size: 25px;
 }
 
