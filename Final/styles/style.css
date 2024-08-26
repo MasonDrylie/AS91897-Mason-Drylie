@@ -1,16 +1,17 @@
-#pagecontainer {
-    width: 1000px;
-    height: 2000px;
-    text-align: center;
-    margin: 0 auto;
-
-
-}
-
 @font-face {
     font-family: KulimPark;
     src: url(fonts/kulimpark.ttf);
   }
+
+#pagecontainer {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: KulimPark;
+}
+
+
 
 .thumb {
     width: 333.33px;
@@ -27,8 +28,8 @@ header {
     background-color: #87CFDC;
     font-family: KulimPark;
     position: sticky;
-    margin-top: -8px;
     top: 0;
+    margin-top: -8px;
     z-index: 1;
 }
 
@@ -79,32 +80,30 @@ nav ul {
     color: black;
 }
 
-.titleright {
-    width: 550px;
-    float: right;
-    position: relative;
+
+.heading {
+    display: flex;
 }
 
-.titleleft {
-    width: 550px;
-    float: left;
-    position: relative;
+.headingtitle {
+    width: 554px;
+    display: flex;
+    flex-grow: 1;
 }
+
 
 
 
 .headingimage {
     width: 550px;
-    float: left;
     border: 1px solid;
-   
 }
 
 .banner {
     position: absolute;
     background-color: rgba(135, 207, 220, 0.4);
     width: 550px;
-    margin-top: 214px;
+    margin-top: 215px;
     color: white;
     font-family: KulimPark;
     line-height: 0.7;
@@ -117,28 +116,23 @@ nav ul {
     font-size: 30px;
 }
 
-.adjacentright {
+.headingadjacent {
+    flex-grow: 1;
     background-color: #87CFDC;
     font-family: KulimPark;
-    text-align: right;
+    height: 550px;
     border: 2px solid;
-    height: 548px;
-    width: 445px;
-    float: right;
+}
+
+.adjacentright {
+    text-align: right;
+    padding-right: 10px;
 }
 
 .adjacentleft {
-    background-color: #87CFDC;
-    font-family: KulimPark;
     text-align: left;
-    border: 2px solid;
-    height: 548px;
-    width: 446px;
-    float: left;
+    padding-left: 10px;
 }
-
-
-
 
 
 .headingadjacent h1 {
@@ -148,19 +142,24 @@ nav ul {
     font-weight: lighter;
 }
 
-.headingadjacent p {
-    font-size: 25px;
-} 
-
 .headingadjacent a {
     color: #696969;
     font-size: 25px;
 }
 
+#indexadjacent {
+    font-size: 25px;
+}
+
+#lakeadjacent {
+    font-size: 24px;
+    padding-right: 30px;
+}
+
 #waiata {
     line-height: 15px;
     font-family: KulimPark;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 #waiata h1 {
@@ -177,24 +176,108 @@ nav ul {
     font-style: italic;
 }
 
-#rangitoto {
-    margin-top: 30px;
-    width: 100%;   
+#pupukecontainer {
+    display: flex;
+    justify-content: space-between;
 }
 
+#pupukecontainer h3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
 
+#pupukegeology {
+    text-align: left;
+    border: 2px solid;
+    padding: 15px;
+}
+
+#humanuse {
+    text-align: right;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#maorilegend h3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#rangigeology h3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#maorilegend {
+    background-color: #87CFDC;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#maoriassociation h3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
 
 
 .gallery {
     background-color: #145D6B;
     color: white;
-    height: 300px;
+    height: 307px;
     padding-top: 1px;
     text-align: left;
     font-family: KulimPark;
+
 }
 
 .gallery h1 {
     margin-left: 20px;
 }
 
+
+#rangitoto {
+    margin-top: 30px;
+    width: 100%;   
+}
+
+#rangiadjacent {
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+#rangigeology {
+    text-align: left;
+    border: 2px solid;
+    padding: 20px;
+}
+
+#geologyimg {
+    width: 240px;
+    height: 303px;
+    float: right;
+    margin: 0px 20px 20px 20px;
+    border: 2px solid;
+}
+
+#maoriassociation {
+    background-color: #87CFDC;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#infosource {
+    background-color: #145D6B;
+    border: 2px black solid;
+    color: white;
+    font-style: italic;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#infosource a {
+    color: white;
+}
