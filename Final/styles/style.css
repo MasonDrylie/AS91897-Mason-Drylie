@@ -13,13 +13,6 @@
 
 
 
-.thumb {
-    width: 333.33px;
-    float: left;
-    padding-bottom: 5px;
-}
-
-
 header {
     display: flex;
     flex-direction: row;
@@ -228,15 +221,26 @@ nav ul {
     background-color: #145D6B;
     color: white;
     height: 307px;
-    padding-top: 1px;
+    border: 1px black solid;
     text-align: left;
     font-family: KulimPark;
-
 }
 
 .gallery h1 {
     margin-left: 20px;
 }
+
+.galleryimages {
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.thumb {
+    height: 221.8px;
+    float: left;
+}
+
 
 
 #rangitoto {
