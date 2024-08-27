@@ -285,3 +285,42 @@ nav ul {
 #infosource a {
     color: white;
 }
+
+#paoaadjacent {
+    font-size: 25px;
+}
+
+
+#earlyhistory {
+    text-align: left;
+    border: 2px black solid;
+    padding-left: 10px;
+}
+
+#waitemataadjacent {
+    font-size: 24px;
+}
+
+#historyinsert {
+    float: left;
+    height: 408px;
+    margin-right: 20px;
+}
+
+#history {
+    text-align: left;
+    height: 408px;
+}
+
+
+#etymology {
+    background-color: #87CFDC;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#etymology h3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
