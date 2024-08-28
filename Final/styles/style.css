@@ -9,6 +9,8 @@
     margin: 0 auto;
     padding: 0;
     font-family: KulimPark;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
 }
 
 
@@ -89,12 +91,12 @@ nav ul {
 
 .headingimage {
     width: 550px;
-    border: 1px solid;
+    border: 2px solid;
 }
 
 .banner {
     position: absolute;
-    background-color: rgba(135, 207, 220, 0.4);
+    background-color: rgba(61, 127, 138, 0.7);
     width: 550px;
     margin-top: 215px;
     color: white;
@@ -136,7 +138,7 @@ nav ul {
 }
 
 .headingadjacent a {
-    color: #696969;
+    color: #194944;
     font-size: 25px;
 }
 
