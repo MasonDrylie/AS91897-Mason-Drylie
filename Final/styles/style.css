@@ -117,18 +117,9 @@ nav ul {
     font-family: KulimPark;
     height: 550px;
     border: 2px solid;
-}
-
-.adjacentright {
-    text-align: right;
-    padding-right: 10px;
-}
-
-.adjacentleft {
     text-align: left;
     padding-left: 10px;
 }
-
 
 .headingadjacent h1 {
     font-size: 40px;
@@ -150,6 +141,7 @@ nav ul {
     font-size: 24px;
     padding-right: 30px;
 }
+
 
 #waiata {
     line-height: 15px;
@@ -189,7 +181,7 @@ nav ul {
 }
 
 #humanuse {
-    text-align: right;
+    text-align: left;
     border: 2px solid;
     padding: 10px;
 }
@@ -222,9 +214,9 @@ nav ul {
 .gallery {
     background-color: #145D6B;
     color: white;
-    height: 307px;
+    height: 300px;
     border: 1px black solid;
-    text-align: left;
+    text-align: center;
     font-family: KulimPark;
 }
 
@@ -235,12 +227,14 @@ nav ul {
 .galleryimages {
     display: flex;
     flex-grow: 1;
-    
+    flex-shrink: 1;
 }
 
 .thumb {
-    height: 221.8px;
-    float: left;
+    height: 220.5px;
+    border-width: 0px 1px 0px 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 
@@ -251,8 +245,7 @@ nav ul {
 }
 
 #rangiadjacent {
-    font-size: 21px;
-    padding-left: 10px;
+    font-size: 20px;
 }
 
 #rangigeology {
@@ -312,6 +305,7 @@ nav ul {
 #history {
     text-align: left;
     height: 408px;
+    font-size: 18px;
 }
 
 
