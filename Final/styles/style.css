@@ -97,7 +97,7 @@ nav ul {
 .banner {
     position: absolute;
     background-color: rgba(61, 127, 138, 0.7);
-    width: 550px;
+    width: 551.5px;
     margin-top: 215px;
     color: white;
     font-family: KulimPark;
@@ -133,6 +133,10 @@ nav ul {
     font-size: 25px;
 }
 
+.headingadjacent a:hover {
+    color: black;
+}
+
 #indexadjacent {
     font-size: 25px;
 }
@@ -159,7 +163,7 @@ nav ul {
 }
 
 #waiata h3 {
-    color: rgba(0,0,0, 0.7);
+    color: rgba(20, 93, 107, 0.7);
     font-style: italic;
 }
 
@@ -214,9 +218,9 @@ nav ul {
 .gallery {
     background-color: #145D6B;
     color: white;
-    height: 300px;
-    border: 1px black solid;
-    text-align: center;
+    height: 299px;
+    border: 2px black solid;
+    text-align: left;
     font-family: KulimPark;
 }
 
@@ -281,15 +285,21 @@ nav ul {
     color: white;
 }
 
+#infosource a:hover {
+    color: #87CFDC;
+}
+
 #paoaadjacent {
-    font-size: 25px;
+    font-size: 24px;
+    padding-left: 13px;
+    padding-right: 5px;
 }
 
 
 #earlyhistory {
     text-align: left;
     border: 2px black solid;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #waitemataadjacent {
@@ -305,7 +315,9 @@ nav ul {
 #history {
     text-align: left;
     height: 408px;
-    font-size: 18px;
+    font-size: 17px;
+    padding-right: 3px;
+    border: 2px solid;
 }
 
 
